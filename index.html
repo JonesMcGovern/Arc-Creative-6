@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arc Creative helps established businesses look as credible online as they are in real life. Professional web design, brand strategy, and digital presence.">
+  <title>Arc Creative — Web Design & Brand Strategy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700;1,800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Arc Creative home">
+        <span class="logo-full">Arc Creative</span>
+        <span class="logo-short">Arc</span>
+      </a>
+      <div class="nav-controls">
+        <a href="#contact" class="nav-book" id="nav-book" aria-hidden="true">Book Free Audit</a>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-mobile" id="nav-mobile" hidden>
+      <ul role="list">
+        <li><a href="#process">How We Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#who">Who We Help</a></li>
+        <li><a href="#contact" class="mobile-cta">Book Free Audit</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Web Design &amp; Brand Strategy</span>
+        <h1>
+          Your Website Is<br>
+          <em>Quietly Costing</em><br>
+          You Money.
+        </h1>
+        <p class="hero-sub">
+          You've spent years building real expertise and a strong reputation, but your website
+          tells a different story. An outdated site quietly costs you trust, referrals, and
+          opportunities. We help brands look as credible online as they are in real life.
+        </p>
+        <form class="hero-form" id="hero-form">
+          <input type="text" name="project" placeholder="Tell us about your project" required>
+          <input type="email" name="email" placeholder="you@example.com" required>
+          <button type="submit">Get Started &rarr;</button>
+        </form>
+        <div class="hero-trust">
+          <span>Free audit</span>
+          <span class="trust-dot" aria-hidden="true"></span>
+          <span>No commitment required</span>
+          <span class="trust-dot" aria-hidden="true"></span>
+          <span>Launch in weeks</span>
+        </div>
+
+        <!-- Meeting panel -->
+        <div class="meeting-panel" id="meeting-panel" hidden>
+          <p class="meeting-label">Request a time that works for you.</p>
+          <form class="meeting-form" id="meeting-form">
+            <label>
+              <span>Preferred date</span>
+              <input type="date" name="meeting-date" required>
+            </label>
+            <label>
+              <span>Preferred time</span>
+              <input type="time" name="meeting-time" required>
+            </label>
+            <button type="submit">Request time</button>
+          </form>
+          <p class="meeting-confirm" id="meeting-confirm" hidden>
+            Thanks. Your meeting request is on its way.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROBLEM ── -->
+  <section class="section problem-section" id="problem">
+    <div class="section-inner">
+      <header class="section-header">
+        <div class="section-tag">The Problem</div>
+        <h2>The longer your website stays outdated, the more it costs you.</h2>
+        <p>Most business owners are busy doing great work, not thinking about their website. Meanwhile, an outdated online presence quietly turns away the clients and opportunities they worked years to earn.</p>
+      </header>
+      <div class="pain-grid">
+        <div class="pain-card">
+          <div class="pain-num">01</div>
+          <h3>It Feels Dated</h3>
+          <p>First impressions happen instantly. If your site looks behind, prospects assume your business is too. Years of experience and trust can disappear in seconds.</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-num">02</div>
+          <h3>You're Losing Opportunities</h3>
+          <p>You never see the people who leave. The most qualified prospects are often already searching for what you offer — your website just failed to keep them there.</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-num">03</div>
+          <h3>It Undersells Your Business</h3>
+          <p>When your online presence doesn't reflect the quality of your work, trust drops. Your reputation, results, and expertise deserve a website that communicates them clearly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOW WE WORK ── -->
+  <section class="section process-section" id="process">
+    <div class="section-inner">
+      <div class="process-layout">
+        <header class="process-header">
+          <div class="section-tag">How We Work</div>
+          <h2>You focus on your business. We handle the rest.</h2>
+          <p>We built Arc for business owners who know their time is better spent serving clients than managing a website. Every engagement starts with a free audit so you can see how we think before committing.</p>
+        </header>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-marker">
+              <div class="step-num">01</div>
+              <div class="step-line" aria-hidden="true"></div>
+            </div>
+            <div class="step-body">
+              <h3>Free Audit</h3>
+              <p>We review your current website and brand presence, identify what is working, and show you where opportunities are being missed.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-marker">
+              <div class="step-num">02</div>
+              <div class="step-line" aria-hidden="true"></div>
+            </div>
+            <div class="step-body">
+              <h3>Align On A Plan</h3>
+              <p>We scope the engagement around your goals. Some businesses need a refresh. Others need a full rebuild. We focus only on what matters.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-marker">
+              <div class="step-num">03</div>
+              <div class="step-line" aria-hidden="true"></div>
+            </div>
+            <div class="step-body">
+              <h3>Build &amp; Launch</h3>
+              <p>We handle strategy, design, copy, and development. You review, give feedback, and we move quickly from kickoff to launch.</p>
+            </div>
+          </div>
+          <div class="process-step process-step-last">
+            <div class="step-marker">
+              <div class="step-num">04</div>
+            </div>
+            <div class="step-body">
+              <h3>Ongoing Support</h3>
+              <p>Need a long-term partner? We offer maintenance, updates, and strategy support — or hand everything off cleanly when the project is complete.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHO WE HELP ── -->
+  <section class="section who-section" id="who">
+    <div class="section-inner">
+      <header class="section-header">
+        <div class="section-tag">Who We Help</div>
+        <h2>Built for professionals with better things to do than manage a website.</h2>
+        <p>We work with established businesses ready for an online presence that reflects the quality of their work.</p>
+      </header>
+      <div class="who-list">
+        <div class="who-item">
+          <span class="who-n">01</span>
+          <span class="who-name">Therapists &amp; Counselors</span>
+        </div>
+        <div class="who-item">
+          <span class="who-n">02</span>
+          <span class="who-name">Dental &amp; Medical Practices</span>
+        </div>
+        <div class="who-item">
+          <span class="who-n">03</span>
+          <span class="who-name">Fitness &amp; Wellness Experts</span>
+        </div>
+        <div class="who-item">
+          <span class="who-n">04</span>
+          <span class="who-name">Accountants &amp; Advisors</span>
+        </div>
+        <div class="who-item">
+          <span class="who-n">05</span>
+          <span class="who-name">Coaches &amp; Consultants</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section class="section services-section" id="services">
+    <div class="section-inner">
+      <header class="section-header">
+        <div class="section-tag">Services</div>
+        <h2>Start where you need to.</h2>
+        <p>Every engagement begins with a free audit. From there, we recommend the highest-impact next step for your business.</p>
+      </header>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <h3>Brand Foundation</h3>
+          <p>Logo, identity, typography, and visual direction built to create a cohesive, credible brand presence.</p>
+        </div>
+        <div class="service-card service-featured">
+          <div class="service-badge">Most Popular</div>
+          <div class="service-num">02</div>
+          <h3>Website Modernization</h3>
+          <p>A fast, modern, mobile-optimized website that reflects the quality of your business and builds trust instantly.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <h3>Full Digital Overhaul</h3>
+          <p>A complete rebuild covering brand alignment, copy strategy, conversion-focused design, and SEO foundations.</p>
+        </div>
+      </div>
+      <p class="services-note">Ongoing maintenance and content support available through monthly retainers.</p>
+    </div>
+  </section>
+
+  <!-- ── WHY ARC CREATIVE ── -->
+  <section class="why-section" id="why">
+    <div class="section-inner">
+      <div class="why-inner">
+        <div class="why-copy">
+          <div class="section-tag tag-on-dark">Why Arc Creative</div>
+          <h2>Experience without the agency bloat.</h2>
+          <p>We bring something most creative agencies don't: real business and sales experience. We understand what builds trust, drives conversions, and helps businesses grow.</p>
+          <p>That means we do more than make brands look better &mdash; we make them work harder.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="cta-section" id="contact">
+    <div class="section-inner">
+      <div class="cta-inner">
+        <h2>Your Website Should Work As Hard <em>As You Do.</em></h2>
+        <a href="mailto:hello@arccreative.co" class="btn-cta-large">Book a Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="section-inner footer-inner">
+      <div class="footer-logo">Arc Creative</div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#process">How We Work</a>
+        <a href="#services">Services</a>
+        <a href="#who">Who We Help</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-meta">
+        <p>&copy; 2025 Arc Creative</p>
+        <a href="mailto:hello@arccreative.co">hello@arccreative.co</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
